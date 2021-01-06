@@ -4,9 +4,7 @@
 
 ## 使用
 
-1. 新建 `.npmrc` 文件
-2. 写入 `@tencent:registry=http://r.tnpm.oa.com`
-3. `yarn add @tencent/sui-components`
+`yarn add sui-components`
 
 ## 示例
 
@@ -18,7 +16,7 @@ import {
   Menu,
   RouterPage,
   Avatar
-} from '@tencent/sui-components';
+} from 'sui-components';
 
 const { PageWrapper, LeftWrapper, RightWrapper, Header, Content } = Wrapper;
 ```
@@ -42,9 +40,9 @@ const { PageWrapper, LeftWrapper, RightWrapper, Header, Content } = Wrapper;
 
 ## 发布
 
-1. `git clone git@git.code.oa.com:comment_frontend/sui-core.git .sui-core`
+1. `git clone https://github.com/tangzhirong/sui-core.git .sui-core`
 2. `node build.js`
-3. `tnpm publish`
+3. `npm publish`
 
 ## 版本变更
 
