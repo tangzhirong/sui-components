@@ -1,0 +1,11 @@
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": [
+    "transform-remove-console",
+    "transform-class-properties",
+    [
+      "import",
+      { "libraryName": "antd", "libraryDirectory": "dist", "style": true }
+    ]
+  ]
+}
