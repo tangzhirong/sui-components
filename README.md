@@ -2,13 +2,13 @@
 
 > sui 组件库
 
-## 使用
-
-`yarn add sui-components`
-
 ## 在线文档
 
 - [在线文档](http://123.56.61.102/#/guides/about)
+
+## 使用
+
+`yarn add sui-components`
 
 ## 示例
 
